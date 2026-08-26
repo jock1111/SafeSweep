@@ -61,6 +61,7 @@ I am still improving SafeSweep and I am looking for honest Windows testers. If s
 
 ## Contact
 
+- Instagram: <https://instagram.com/jock11_real>
 - Telegram: <https://t.me/jock11_real>
 - Discord: `_draken__`
 - Bio: <https://guns.lol/jock11>
