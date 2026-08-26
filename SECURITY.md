@@ -26,7 +26,7 @@ Settings, logs, update staging data, and optimization restore information are st
 
 ## Installer signature
 
-The current installer is not yet Authenticode-signed. This can cause an unknown-publisher or SmartScreen warning even when the file has not been classified as malware. Download only from the official GitHub repository, compare the SHA-256 checksum, and keep Windows Security enabled.
+The current installer is not yet Authenticode-signed. This can cause an unknown-publisher or SmartScreen warning even when the file has not been classified as malware. Download only from the official SafeSweep website or this repository, compare the SHA-256 checksum, and keep Windows Security enabled.
 
 ## Reporting a problem
 
