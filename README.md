@@ -6,11 +6,13 @@ SafeSweep scans known cache and diagnostic locations, shows the results first, a
 
 ## Download
 
-The current version is **1.13.2** for 64-bit Windows 10 and Windows 11.
+The current version is **1.13.6** for 64-bit Windows 10 and Windows 11.
 
-**[Download SafeSweep 1.13.2](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.2.exe)**
+**[Download SafeSweep 1.13.6](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.6.exe)**
 
 The download includes a SHA-256 checksum so you can verify the installer before running it.
+
+[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.6) · [First-scan help](https://safesweep.sk1ff.chatgpt.site/download)
 
 > The installer is not Authenticode-signed yet, so Windows may show an unknown publisher or SmartScreen warning. Only download it from the official SafeSweep website or this repository. You should never disable Windows Security to install SafeSweep.
 
@@ -62,6 +64,7 @@ I am still improving SafeSweep and I am looking for honest Windows testers. If s
 
 ## Contact
 
+- Email: [mironantonenko2011@gmail.com](mailto:mironantonenko2011@gmail.com)
 - Website: <https://safesweep.sk1ff.chatgpt.site>
 - Instagram: <https://instagram.com/jock11_real>
 - Telegram: <https://t.me/jock11_real>
