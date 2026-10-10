@@ -6,15 +6,25 @@ SafeSweep scans known cache and diagnostic locations, shows the results first, a
 
 ## Download
 
-The current version is **1.13.6** for 64-bit Windows 10 and Windows 11.
+The current version is **1.13.7** for 64-bit Windows 10 and Windows 11.
 
-**[Download SafeSweep 1.13.6](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.6.exe)**
+**[Download Standard 1.13.7](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.7.exe)**
 
-The download includes a SHA-256 checksum so you can verify the installer before running it.
+**[Download Liquid Glass 1.13.7](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-LiquidGlass-Setup-1.13.7.exe)**
 
-[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.6) · [First-scan help](https://safesweep.sk1ff.chatgpt.site/download)
+Both editions have published SHA-256 checksums so you can check the installer matches the release before running it. A checksum is not a malware verdict or a guarantee of safety.
 
-> The installer is not Authenticode-signed yet, so Windows may show an unknown publisher or SmartScreen warning. Only download it from the official SafeSweep website or this repository. You should never disable Windows Security to install SafeSweep.
+[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.7) · [Edition details and first-scan help](https://safesweep.sk1ff.chatgpt.site/download)
+
+> The installers are not Authenticode-signed yet, so Windows may show an unknown publisher or SmartScreen warning. Only download from the official SafeSweep website or this repository. You should never disable Windows Security to install SafeSweep.
+
+## Optional Liquid Glass edition
+
+Liquid Glass is a separate Windows build inspired by iOS 26, not an iOS app. It adds a full-window frosted backdrop, translucent sidebar and cards, adjustable transparency, and Clear/Tinted styles. Text remains opaque. You can return to classic appearance in Settings.
+
+Desktop Acrylic blur requires Windows 11 22H2 or newer with Windows Transparency effects enabled. Windows 10, disabled transparency, unavailable desktop composition and High Contrast use an opaque, readable fallback. SafeSweep does not capture the desktop or change Windows transparency settings.
+
+Installing either edition replaces the installed SafeSweep app and preserves settings and the existing subscription. Appearance does not unlock paid tools. Standard keeps the classic design and offers a verified Liquid Glass download in Settings once the matching in-app release is published.
 
 ## What it can do
 
@@ -70,4 +80,3 @@ I am still improving SafeSweep and I am looking for honest Windows testers. If s
 - Telegram: <https://t.me/jock11_real>
 - Discord: `_draken__`
 - Bio: <https://guns.lol/jock11>
-
