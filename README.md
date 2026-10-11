@@ -6,15 +6,15 @@ SafeSweep scans known cache and diagnostic locations, shows the results first, a
 
 ## Download
 
-The current version is **1.13.9** for 64-bit Windows 10 and Windows 11.
+The current version is **1.13.10** for 64-bit Windows 10 and Windows 11.
 
-**[Download Standard 1.13.9](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.9.exe)**
+**[Download Standard 1.13.10](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.10.exe)**
 
-**[Download Liquid Glass 1.13.9](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-LiquidGlass-Setup-1.13.9.exe)**
+**[Download Liquid Glass 1.13.10](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-LiquidGlass-Setup-1.13.10.exe)**
 
 Both editions have published SHA-256 checksums so you can check the installer matches the release before running it. A checksum is not a malware verdict or a guarantee of safety.
 
-[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.9) · [Edition details and first-scan help](https://safesweep.sk1ff.chatgpt.site/download)
+[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.10) · [Edition details and first-scan help](https://safesweep.sk1ff.chatgpt.site/download)
 
 > The installers are not Authenticode-signed yet, so Windows may show an unknown publisher or SmartScreen warning. Only download from the official SafeSweep website or this repository. You should never disable Windows Security to install SafeSweep.
 
