@@ -6,6 +6,10 @@ SafeSweep is a Windows 10/11 x64 disk-cleanup app. Standard cleanup is free, wit
 
 The installer is currently unsigned. Review the file information and Windows warnings before installing; keep Windows Security enabled.
 
+## Short video
+
+[17-second vertical screenshot walkthrough — 1080 × 1920 MP4](SafeSweep-review-first-short.mp4). The video uses actual app screenshots and text overlays, with no music or voiceover.
+
 ## Images
 
 - [Portrait — 1080 × 1350 PNG](SafeSweep-promo-portrait.png)
