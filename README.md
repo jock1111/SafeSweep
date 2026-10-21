@@ -1,82 +1,69 @@
 # SafeSweep
 
-I built SafeSweep because I kept running out of space on my Windows drive and did not want a cleaner guessing which files were safe to remove.
+## Make room. Keep control.
 
-SafeSweep scans known cache and diagnostic locations, shows the results first, and only cleans the categories you select. It does not automatically delete files just because they are large, and it does not automatically uninstall old applications.
+**Free Standard cleanup for Windows 10 and 11.** Scan supported temporary files and caches, review what was found, and choose what gets cleaned. Premium tools are optional.
 
-## Download
+[Download for Windows](https://safesweep.sk1ff.chatgpt.site/download) · [How it works](https://safesweep.sk1ff.chatgpt.site/#workflow) · [Cleanup guide](https://safesweep.sk1ff.chatgpt.site/guides/c-drive-full) · [Report a problem](https://github.com/jock1111/SafeSweep/issues)
 
-The current version is **1.13.11** for 64-bit Windows 10 and Windows 11.
+<a href="https://safesweep.sk1ff.chatgpt.site/download"><img src="https://safesweep.sk1ff.chatgpt.site/safesweep-cleanup-1.13.6.png" alt="Actual SafeSweep 1.13.6 Cleanup interface before scanning, showing category descriptions and checkboxes" width="100%"></a>
 
-**[Download Standard 1.13.11](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.11.exe)**
+*Actual app screenshot from version 1.13.6, before scanning. The current public release is 1.13.11. Results vary by PC.*
 
-**[Download Liquid Glass 1.13.11](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-LiquidGlass-Setup-1.13.11.exe)**
+## Start with free Standard cleanup
 
-Both editions have published SHA-256 checksums so you can check the installer matches the release before running it. A checksum is not a malware verdict or a guarantee of safety.
+1. [Choose your edition and download](https://safesweep.sk1ff.chatgpt.site/download). No website account or payment is required for Standard cleanup.
+2. Review the installer information and any Windows warnings before installing.
+3. Open **Cleanup** and scan. Scanning shows results without removing files.
+4. Read the category descriptions, select what you want to clean, and confirm your selection.
 
-[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.11) · [Edition details and first-scan help](https://safesweep.sk1ff.chatgpt.site/download)
+The installers are **not yet Authenticode-signed**. Windows may show an unknown-publisher or SmartScreen warning. Keep Windows Security enabled. Our [download page](https://safesweep.sk1ff.chatgpt.site/download) includes installer sizes, SHA-256 checksums, edition requirements, and first-scan help. A checksum confirms a file matches the published release; it is not a malware verdict or a guarantee of safety.
 
-> The installers are not Authenticode-signed yet, so Windows may show an unknown publisher or SmartScreen warning. Only download from the official SafeSweep website or this repository. You should never disable Windows Security to install SafeSweep.
+## Free and optional Premium tools
 
-## Optional Liquid Glass edition
+| Feature | Free Standard | Premium |
+| --- | :---: | :---: |
+| Review-first cleanup of supported temp and cache locations | Yes | Yes |
+| Local cleanup history | Yes | Yes |
+| English, Russian, Ukrainian, and Polish interfaces | Yes | Yes |
+| Extra CleanUp locations | — | Yes |
+| Large Files and Old Applications review tools | — | Yes |
+| Reversible Windows and gaming settings | — | Yes |
 
-Liquid Glass is a separate Windows build inspired by iOS 26, not an iOS app. On Windows 11 22H2 or later, native Desktop Acrylic softly diffuses your wallpaper and windows behind SafeSweep when Windows Transparency effects are enabled. It adds a refined floating sidebar, rounded panels, layered highlights, mint actions, adjustable material transparency, and Clear/Tinted styles. Text and icons remain opaque. You can return to classic appearance in Settings.
+Premium is an optional paid upgrade, not a requirement for Standard cleanup. See [the website](https://safesweep.sk1ff.chatgpt.site/#plans) for current details.
 
-Windows 10, unsupported devices, High Contrast, disabled transparency and power/session restrictions use a readable opaque fallback. Confirmation dialogs stay opaque. Windows manages native blur strength; the app slider adjusts the material tint/transparency. This is a Windows-inspired appearance, not native Apple Liquid Glass or optical refraction. SafeSweep does not capture the desktop or change Windows transparency settings.
+## Your files, your decision
 
-Installing either edition replaces the installed SafeSweep app and preserves settings and the existing subscription. Appearance does not unlock paid tools. Standard keeps the classic design and offers a verified Liquid Glass download in Settings once the matching in-app release is published.
+- Automatic cleanup uses a finite set of supported temporary and cache locations.
+- Personal folders—including Documents, Desktop, Downloads, Pictures, Music, and Videos—are excluded from automatic cleanup.
+- Browser cache cleanup excludes passwords, cookies, history, and bookmarks.
+- Finding a large file does not delete it. Old Applications hands you back to normal Windows uninstall settings.
+- Locked or changed candidates may be skipped, so estimates can differ from the space actually recovered.
+- Restore All restores supported optimization settings, **not deleted cleanup files**. Keep backups of important files.
+- No guaranteed amount of recovered space or FPS improvement is advertised.
 
-## What it can do
+More details: [SECURITY.md](SECURITY.md) · [What to review when your C drive is full](https://safesweep.sk1ff.chatgpt.site/guides/c-drive-full).
 
-- Scan common Windows and application cache locations before cleaning anything
-- Show the categories, file count, and estimated size
-- Run standard cleanup for free
-- Scan extra cache and diagnostic categories with Extra CleanUp
-- Show large files without silently deleting them
-- Help review applications that may no longer be used
-- Apply optional gaming-related Windows settings and restore the previous values later
-- Keep cleanup logs locally
-- Use English, Russian, Ukrainian, or Polish
-- Download verified updates from inside the app
-- Connect an activated subscription to a website profile with a one-time code
+## Two appearances, the same cleanup tools
 
-## What it does not do
+The current release is **1.13.11** for 64-bit Windows 10 and Windows 11.
 
-- It does not automatically clean personal folders such as Documents or Pictures
-- It does not remove applications automatically
-- It does not delete every large file it finds
-- It does not promise a specific FPS increase
-- It does not perform fake RAM cleaning by forcing running programs out of memory
+- **[Standard 1.13.11](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-Setup-1.13.11.exe):** the classic SafeSweep appearance.
+- **[Liquid Glass 1.13.11](https://safesweep.sk1ff.chatgpt.site/downloads/SafeSweep-LiquidGlass-Setup-1.13.11.exe):** an optional translucent appearance. Native Desktop Acrylic needs supported Windows 11 22H2-or-later conditions and Windows Transparency effects; other conditions use a readable opaque fallback. Text and confirmation dialogs stay opaque. It is a Windows appearance inspired by glass interfaces, not native Apple Liquid Glass or optical refraction.
 
-## Free and Premium
+Installing either edition replaces the installed SafeSweep app and retains its settings and subscription. Appearance does not unlock paid tools.
 
-| Feature | Free | Premium |
-|---|:---:|:---:|
-| Standard cleanup | Yes | Yes |
-| Extra cleanup categories | No | Yes |
-| Large-file review | No | Yes |
-| Old-application review | No | Yes |
-| Reversible PC optimization | No | Yes |
+[Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.11) · [Full edition requirements](https://safesweep.sk1ff.chatgpt.site/download#liquid-glass).
 
-Premium activation keys are limited to one computer. Purchase information is available inside the app.
+## Feedback and support
 
-## Safety
+Have a question or found a problem? [Open an issue](https://github.com/jock1111/SafeSweep/issues) with your SafeSweep version, Windows version, the affected category, and steps to reproduce it. Remove usernames, activation keys, and other private information before posting logs or screenshots publicly.
 
-A scan is read-only. Cleanup requires category selection and confirmation. SafeSweep uses a list of approved cleanup locations instead of treating arbitrary files as junk.
+- [Official website](https://safesweep.sk1ff.chatgpt.site/)
+- [YouTube walkthroughs](https://www.youtube.com/@SafeSweep_app)
+- [TikTok](https://www.tiktok.com/@safesweep.app)
+- [X](https://x.com/SafeSweep_app)
+- [Email the developer](mailto:mironantonenko2011@gmail.com)
+- [Telegram](https://t.me/jock11_real)
 
-Some Windows categories require administrator rights. The optional PC optimization feature saves the previous settings before changing them, and restoration remains available even if Premium expires.
-
-More details are available in [SECURITY.md](SECURITY.md).
-
-## Feedback
-
-I am still improving SafeSweep and I am looking for honest Windows testers. If something looks wrong, please open an issue and include the SafeSweep version, Windows version, affected category, and steps to reproduce it. Remove usernames or other private information from logs before posting them.
-
-## Contact
-
-- Email: [mironantonenko2011@gmail.com](mailto:mironantonenko2011@gmail.com)
-- Website: <https://safesweep.sk1ff.chatgpt.site>
-- Instagram: <https://instagram.com/jock11_real>
-- Telegram: <https://t.me/jock11_real>
-- Discord: `_draken__`
-- Bio: <https://guns.lol/jock11>
+This is the public distribution and documentation repository. The desktop application's source code is not published here.
