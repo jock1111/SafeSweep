@@ -55,6 +55,10 @@ Installing either edition replaces the installed SafeSweep app and retains its s
 
 [Release notes and checksums](https://github.com/jock1111/SafeSweep/releases/tag/v1.13.11) · [Full edition requirements](https://safesweep.sk1ff.chatgpt.site/download#liquid-glass).
 
+## Share SafeSweep
+
+[Square and portrait promotion images, product details, and a short caption](press-kit/README.md) are available for posts and articles. Link to the official download page so readers can review the installer information.
+
 ## Feedback and support
 
 Have a question or found a problem? [Open an issue](https://github.com/jock1111/SafeSweep/issues) with your SafeSweep version, Windows version, the affected category, and steps to reproduce it. Remove usernames, activation keys, and other private information before posting logs or screenshots publicly.
